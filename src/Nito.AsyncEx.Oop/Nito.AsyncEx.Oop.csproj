@@ -3,6 +3,7 @@
   <PropertyGroup>
     <Description>Interfaces and utility methods for combining async with OOP.</Description>
     <TargetFrameworks>netstandard1.3;netstandard2.0;net461</TargetFrameworks>
+    <PackageId>Nito.AsyncEx.Oop.StrongNamed</PackageId>
   </PropertyGroup>
 
   <ItemGroup>

@@ -6,10 +6,13 @@
     <TargetFrameworks>netstandard1.3;netstandard2.0;net461</TargetFrameworks>
     <PackageTags>async;await;async-await;task;asynchronous;nito;nitro</PackageTags>
     <IsMetapackage>true</IsMetapackage>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>../../nito_strong_name.snk</AssemblyOriginatorKeyFile>
+    <PackageId>Nito.AsyncEx.StrongNamed</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Nito.Cancellation" Version="1.1.2" />
+    <PackageReference Include="Nito.Cancellation.StrongNamed" Version="1.1.2" />
   </ItemGroup>
 
   <ItemGroup>

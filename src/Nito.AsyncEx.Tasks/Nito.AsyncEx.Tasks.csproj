@@ -4,10 +4,11 @@
     <Description>Common helper methods for tasks as used in asynchronous programming.</Description>
     <TargetFrameworks>netstandard1.3;netstandard2.0;net461</TargetFrameworks>
     <PackageTags>$(PackageTags);taskfactory;cancellationtoken;taskcompletionsource</PackageTags>
+    <PackageId>Nito.AsyncEx.Tasks.StrongNamed</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Nito.Disposables" Version="2.2.1" />
+    <PackageReference Include="Nito.Disposables.StrongNamed" Version="2.3.0" />
   </ItemGroup>
 
 </Project>
