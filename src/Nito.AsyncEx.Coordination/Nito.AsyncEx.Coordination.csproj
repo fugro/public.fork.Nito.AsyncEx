@@ -4,10 +4,13 @@
     <Description>Asynchronous coordination primitives.</Description>
     <TargetFrameworks>netstandard1.3;netstandard2.0;net461</TargetFrameworks>
     <PackageTags>$(PackageTags);asynclock;asynclazy</PackageTags>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>../../nito_strong_name.snk</AssemblyOriginatorKeyFile>
+    <PackageId>Nito.AsyncEx.Coordination.StrongNamed</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Nito.Collections.Deque" Version="1.1.1" />
+    <PackageReference Include="Nito.Collections.Deque.StrongNamed" Version="1.1.1" />
   </ItemGroup>
 
   <ItemGroup>

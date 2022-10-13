@@ -1,3 +1,13 @@
+# AsyncEx ===> STRONG NAMED
+
+This is the strong named version of [Nito.AsyncEx](https://github.com/StephenCleary/AsyncEx)
+
+Version numbers do map with the original repo.
+
+***Original documentation below this line***
+	
+---
+
 ![Logo](AsyncEx.128.png)
 
 # AsyncEx
